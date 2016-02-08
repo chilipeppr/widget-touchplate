@@ -9,6 +9,9 @@ requirejs.config({
 // Test this element. This code is auto-removed by the chilipeppr.load()
 cprequire_test(["inline:com-chilipeppr-widget-touchplate"], function(touchplate) {
     console.log("test running of " + touchplate.id);
+
+    $('body').css("padding", "20px");
+
     touchplate.init();
 
     /*    
@@ -72,6 +75,7 @@ cprequire_test(["inline:com-chilipeppr-widget-touchplate"], function(touchplate)
             });
         });
         */
+        
 
 } /*end_test*/ );
 

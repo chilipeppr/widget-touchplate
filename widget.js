@@ -1,7 +1,7 @@
 requirejs.config({
     paths: {
         // Three: '//i2dcui.appspot.com/geturl?url=http://threejs.org/build/three.js',
-        Three: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r77/three',
+        Three: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r76/three',
         //Three: 'http://threejs.org/build/three.min',
         //Three: '//i2dcui.appspot.com/geturl?url=http://threejs.org/build/three.min.js',       //ray put this here for ssl
     }
